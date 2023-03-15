@@ -1,0 +1,78 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+  }
+  .left {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .student {
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .score {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+  }
+  button.addScore {
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+    left: 7px;
+  }
+  p.studentName {
+    margin: 0px;
+    padding: 0px;
+  }
+  p.universityName {
+    margin: 0px;
+    padding: 0px;
+  }
+  .addScore:hover {
+    background: green;
+  }
+  p.universityName span {
+    background: green;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 1px 5px;
+  }
+  h1 {
+    text-decoration: underline;
+    background-color: rgba(223, 21, 21, 0.808);
+    color: white;
+  }
+  
+  body {
+    background-image: linear-gradient(rgb(231, 1, 1), rgba(38, 0, 255, 0.986));
+    font-family: "Times New Roman", Times, serif;
+  }
+  h1.leader-Board {
+    text-decoration-style: dotted;
+    text-align: center;
+    text-decoration-color: blue;
+  }
+  
